@@ -1,4 +1,4 @@
-(ns goneTomorrowHereToday.core
+(ns goneTodayHereTomorrow.core
   (:require [clojure.edn :as edn]
             [clojure.core.async :refer [chan close!]]
             [discljord.messaging :as discord-rest]
@@ -47,4 +47,3 @@
   (try
     (message-pump! (:events @state) handle-event)
     (finally (stop-bot! @state))))
-

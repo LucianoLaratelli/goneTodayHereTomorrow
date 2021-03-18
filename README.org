@@ -1,7 +1,7 @@
 #+TITLE: README
 
 
-* goneTomorrowHereToday
+* goneTodayHereTomorrow
 
 A Discord bot designed to allow users to tag certain messages with special
 emoji; these emoji are read by the bot and send a message with all the missed
