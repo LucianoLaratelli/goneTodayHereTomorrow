@@ -1,0 +1,5 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        cprop/cprop {:mvn/version "0.1.17"}
+        org.suskalo/discljord {:mvn/version "1.2.0"}}
+
+ :paths ["src" "resources" "tests"]}
